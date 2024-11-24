@@ -1,0 +1,17 @@
+// En scss/main.scss
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+// Para sobreescrbir variables
+// $primary: #007bff;
+
+// Importar Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Importar mis estilos pasados a scss
+@import "estiloscomunes";
+@import "carrito";
+@import "catalogo";
+@import "index";
+@import "login";
+@import "producto";

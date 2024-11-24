@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "sass": "^1.81.0"
+  },
+  "scripts": {
+  "sass": "sass scss/main.scss:comp_css/estilos.css",
+  "sass:watch": "sass --watch scss/main.scss:comp_css/estilos.css"
+  }
+}
