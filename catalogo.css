@@ -1,72 +1,7 @@
-/* General */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-main{
+/* Categories page specific styles */
+main {
     width: 80%;
     margin: auto;
-}
-a {
-    text-decoration: none;
-    color: black;
-
-}
-nav>a{
-    font-size: 24px;
-}
-nav>a:hover{
-    text-decoration:underline;
-    color:red;
-    font-size: 30px;
-}
-a:hover{
-    text-decoration: underline;
-}
-/* Header */
-.cabecera {
-    background-color: #ffc107;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0em 3vw;
-}
-
-.carrito {
-    height: 50px;
-}
-
-.usuario {
-    height: 70px;
-}
-
-.logo img {
-    height: 90px;
-}
-
-.navegacion, .iconos-derecha {
-    display: flex;
-    align-items: center;
-    color: black;
-}
-
-.iconos-derecha {
-    gap: 20px;
-}
-
-.navegacion {
-    gap: 42px;
-}
-
-/* Main */
-main {
-    flex: 1;
-    padding: 20px;
 }
 
 .categorias {
@@ -96,7 +31,8 @@ main {
     height: 30px;
     margin-bottom: 8vh;
 }
-.filtro-izquierda{
+
+.filtro-izquierda {
     display: flex;
     gap: 20px;
 }
@@ -111,9 +47,11 @@ main {
     gap: 20px;
     justify-content: center;
 }
-.banner{
+
+.banner {
     width: 100%;
 }
+
 .producto {
     flex: 1 1 200px;
     border: 1px solid #ddd;
@@ -155,118 +93,8 @@ main {
     color: white;
 }
 
-/* Footer */
-.pie-pagina {
-    background-color: #000000;
-    color: white;
-    padding: 40px 20px 20px;
-    font-family: Arial, sans-serif;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1600px;
-    margin: 0 auto;
-    gap: 100px;
-}
-
-.footer-logo, .footer-contact, .footer-links, .footer-empty {
-    flex: 1;
-}
-
-.footer-logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.logo-footer {
-    max-width: 200px;
-    height: auto;
-}
-
-.footer-contact p {
-    margin: 25px 0;
-    display: flex;
-    align-items: center;
-}
-
-.footer-contact img {
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
-}
-
-.footer-links {
-    display: flex;
-    gap: 50px;
-    margin-left: 150px;
-}
-
-.footer-column h4 {
-    margin-bottom: 15px;
-    font-size: 18px;
-}
-
-.footer-column ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-column ul li {
-    margin-bottom: 10px;
-}
-
-.footer-column a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.footer-column a:hover {
-    text-decoration: underline;
-}
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid #333;
-    font-size: 14px;
-}
-
-.footer-bottom a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-bottom a:hover {
-    text-decoration: underline;
-}
-
-.footer-column {
-    margin-right: 40px;
-    margin-left: 30px;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
-    .cabecera {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .navegacion, .iconos-derecha {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .navegacion {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .categoria-container, .filtro-container {
         flex-direction: column;
         align-items: center;
@@ -279,59 +107,14 @@ main {
     .producto {
         flex: 0 1 calc(50% - 20px);
     }
-
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .footer-links {
-        flex-direction: column;
-        margin-left: 0;
-    }
-
-    .footer-column {
-        margin-bottom: 20px;
-    }
 }
 
 @media (max-width: 580px) {
     .producto {
         flex: 0 1 100%;
     }
+
     .filtro-container {
-        display: flex;
-        justify-content: space-between;
-        height: 30px;
         margin-bottom: 12vh;
-    }
-    .filtro-izquierda{
-        display: flex;
-        gap: 20px;
-    }
-    
-}
-@media (max-width: 1340px) {
-    .footer-links {
-        margin-bottom: 30px;
-    }
-
-    .footer-links {
-        flex-direction: column;
-        text-align: start;
-        margin-right: 20vw;
-    }
-
-
-
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .enlaces-footer {
-        flex-direction: column;
     }
 }
