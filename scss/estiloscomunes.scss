@@ -17,8 +17,16 @@ a:hover {
     text-decoration: underline;
 }
 
+nav>a:hover{
+    text-decoration:underline;
+    color:red;
+    font-size: 30px;
+}
+
 /* Header */
-.cabecera {
+
+//!NAV REEMPLAZADO
+/*.cabecera {
     background-color: #ffc107;
     display: flex;
     flex-wrap: wrap;
@@ -35,9 +43,7 @@ a:hover {
     height: 70px;
 }
 
-.logo img {
-    height: 90px;
-}
+
 
 .navegacion, .iconos-derecha {
     display: flex;
@@ -62,7 +68,10 @@ nav > a:hover {
     color: red;
     font-size: 30px;
 }
-
+*/
+.logo img {
+    height: 90px;
+}
 /* Main */
 main {
     flex: 1;

@@ -3,7 +3,21 @@
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 // Para sobreescrbir variables
-// $primary: #007bff;
+$primary: #ffc107;
+$secondary: #ff0000;
+//$success: $custom-success;
+$info: #0066cc;
+//$warning: $custom-warning;
+//$danger: $custom-danger;
+//$light: $custom-light;
+//$dark: $custom-dark;
+
+// Fusionar tus variables con las de Bootstrap
+$theme-colors: map-merge($theme-colors, (
+  "primary": $primary,
+  "secondary": $secondary,
+  "info": $info
+));
 
 // Importar Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
