@@ -3,7 +3,11 @@
     padding: 5px;
     width: 200px;
 }
+.hoverred:hover {
 
+    color: #ff0000; /* Cambia el color al color secundario de Bootstrap */
+
+}
 main {
     flex: 1;
 }
