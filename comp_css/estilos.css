@@ -12229,17 +12229,18 @@ main {
   }
 }
 /* Categories page specific styles */
-main {
-  width: 80%;
-  margin: auto;
-}
-
 .categorias {
   background-color: #000;
   padding: 10px 0;
 }
 
-v .categoria-container {
+h3, .h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.categoria-container {
   display: flex;
   justify-content: space-around;
   max-width: 1200px;
@@ -12442,6 +12443,12 @@ h3, .h3 {
   color: white;
   padding: 40px;
   text-align: center;
+}
+
+.imagencarrousel {
+  height: 74vh;
+  width: auto;
+  margin: auto;
 }
 
 .contenido-promocion {
