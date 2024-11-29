@@ -6,7 +6,7 @@
 .hoverred:hover {
 
     color: #ff0000; /* Cambia el color al color secundario de Bootstrap */
-
+    
 }
 main {
     flex: 1;
@@ -20,7 +20,11 @@ main {
     width: 100%;
     margin: auto;
 }
-
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
 .juegos-mesa {
     margin-left: 9%;
 }

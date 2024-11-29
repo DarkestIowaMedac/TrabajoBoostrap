@@ -12239,7 +12239,7 @@ main {
   padding: 10px 0;
 }
 
-.categoria-container {
+v .categoria-container {
   display: flex;
   justify-content: space-around;
   max-width: 1200px;
@@ -12350,6 +12350,10 @@ main {
   width: 200px;
 }
 
+.hoverred:hover {
+  color: #ff0000; /* Cambia el color al color secundario de Bootstrap */
+}
+
 main {
   flex: 1;
 }
@@ -12361,6 +12365,12 @@ main {
 .proximas-novedades, .proximos-eventos {
   width: 100%;
   margin: auto;
+}
+
+h3, .h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 .juegos-mesa {
