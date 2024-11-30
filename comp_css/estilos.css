@@ -12445,8 +12445,12 @@ h3, .h3 {
   text-align: center;
 }
 
+.contorno {
+  -webkit-text-stroke: 1px black;
+}
+
 .imagencarrousel {
-  height: 82vh;
+  height: 88vh;
   width: auto;
   margin: auto;
 }
@@ -12771,6 +12775,128 @@ body {
   .boton-comprar {
     width: 100%;
   }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+#myCarousel .carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+#myCarousel .carousel-item.active {
+  animation: fadeIn 0.8s ease-in-out;
+}
+#myCarousel .carousel-item .carousel-caption {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease-in-out;
+}
+#myCarousel .carousel-item.active .carousel-caption {
+  opacity: 1;
+  transform: translateY(0);
+}
+#myCarousel .carousel-item img {
+  transition: transform 0.6s ease-in-out;
+}
+#myCarousel .carousel-control-prev, #myCarousel .carousel-control-next {
+  transition: opacity 0.3s ease-in-out;
+}
+#myCarousel .carousel-control-prev:hover, #myCarousel .carousel-control-next:hover {
+  opacity: 0.9;
+}
+#myCarousel.slide-right .carousel-item-next:not(.carousel-item-start) {
+  animation: slideFromRight 0.6s ease-in-out;
+}
+#myCarousel.slide-left .carousel-item-prev:not(.carousel-item-end) {
+  animation: slideFromLeft 0.6s ease-in-out;
+}
+
+.imagencarrousel {
+  max-height: 600px;
+  object-fit: cover;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.producto {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.boton-comprar:hover {
+  animation: pulse 0.5s infinite;
+}
+
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+  20%, 40%, 60%, 80% { transform: translateX(10px); }
+}
+
+.form-error {
+  animation: shake 0.6s ease-out;
+}
+*/
+.dropdown-menu {
+  display: block;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+.dropdown-menu.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 /*# sourceMappingURL=estilos.css.map */

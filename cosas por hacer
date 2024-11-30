@@ -1,8 +1,18 @@
--Mejorar NAVBar con Boostrap
--Mejorar los botones "ordenar por, flecha, mostrar 30 productos, buscar categoría. con Boostrap. (opcional)
--Cambiar página Index siguiendo una plantilla Boostrap
+-Mejorar NAVBar con Boostrap HECHO
+-Cambiar página Index siguiendo una plantilla Boostrap HECHO
+-subir a algún tipo de entorno
+
+-Mejorar los botones "ordenar por, flecha, mostrar 30 productos, buscar categoría. con Boostrap.
+y añadir padding al main de la página catálogo 
+-Añadir negrita a los botones en acceso
+-Mejorar la descripción en producto
+-Mejorar botones en carrito
+-Hacer un Slider de imagenes
+-Hacer otra animación
 -Cambiar footer en Boostrap (opcional)
--crear un modal de bootstrap que sirva para informar cuando se haya hecho nuna coimpra
--Una nueva página en la que ofrezcas algo nuevo sobre tu producto, pueden ser promociones,
+-Animaciones en carrousel HECHO
+-Otras animaciones en carrousel HECHO
+-Subirlo a netlify
+-crear un modal de bootstrap que sirva para informar cuando se haya hecho una compra (por ahora no)
+-Una nueva página en la que ofrezcas algo nuevo sobre tu producto, pueden ser promociones, (por ahora no)
 eventos, un nuevo producto o servicio, etc.
--Cambia el diseño de la página de pago (qué es?)

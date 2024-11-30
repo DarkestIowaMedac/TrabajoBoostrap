@@ -1,0 +1,60 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideFromRight {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+  }
+  
+  @keyframes slideFromLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+  }
+  
+  #myCarousel {
+    .carousel-item {
+      transition: transform 0.6s ease-in-out;
+      
+      &.active {
+        animation: fadeIn 0.8s ease-in-out;
+      }
+      
+      .carousel-caption {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.5s ease-in-out;
+      }
+      
+      &.active .carousel-caption {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      
+      img {
+        transition: transform 0.6s ease-in-out;
+      }
+    }
+    
+    .carousel-control-prev, .carousel-control-next {
+      transition: opacity 0.3s ease-in-out;
+      
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+    
+    &.slide-right .carousel-item-next:not(.carousel-item-start) {
+      animation: slideFromRight 0.6s ease-in-out;
+    }
+    
+    &.slide-left .carousel-item-prev:not(.carousel-item-end) {
+      animation: slideFromLeft 0.6s ease-in-out;
+    }
+  }
+  
+  .imagencarrousel {
+    max-height: 600px;
+    object-fit: cover;
+  }
