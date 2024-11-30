@@ -12832,7 +12832,6 @@ body {
 }
 
 .imagencarrousel {
-  max-height: 600px;
   object-fit: cover;
 }
 
