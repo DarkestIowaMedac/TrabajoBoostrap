@@ -24,14 +24,13 @@ y añadir padding al main de la página catálogo
 
 (TEMA 5)
 -PDF Describir formatos de imagen más usados en web y en qué se diferencian cada uno de ellos. HECHO
--Convertir el logo a formato .ico y añadir FAVICON HECHO
--Crear licencia Creative Commons
+-Convertir el logo a formato .ico y añadir favicon HECHO
+-Crear licencia Creative Commons HECHO
 
 
 (TEMA 4, ENTREGA FINAL)
 -Una página de registro y de inicio de sesión HECHO
 -Página principal HECHO
-
 -crear un modal de bootstrap que sirva para informar cuando se haya hecho una compra
 -Una nueva página en la que ofrezcas algo nuevo sobre tu producto, pueden ser promociones,
 eventos, un nuevo producto o servicio, etc.
