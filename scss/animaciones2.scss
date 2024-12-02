@@ -1,0 +1,24 @@
+
+      .slide-in-left, .slide-in-right {
+          opacity: 0;
+          transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+      }
+      .slide-in-left {
+          transform: translateX(-100%);
+      }
+      .slide-in-right {
+          transform: translateX(100%);
+      }
+      .slide-in-left.active, .slide-in-right.active {
+          opacity: 1;
+          transform: translateX(0);
+      }
+
+      .aparecer{
+        transform: scale(0);
+        transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+      }
+      .aparecer.active{
+        opacity: 1;
+        transform: scale(1);
+      }

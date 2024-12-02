@@ -85,10 +85,14 @@ main {
     font-family: Arial, sans-serif;
 }
 
+.margintop{
+   box-sizing: content-box;
+   margin-top: 100px; 
+}
 .footer-content {
     display: flex;
     justify-content: space-between;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
     gap: 100px;
 }

@@ -5,22 +5,10 @@
 -Otras animaciones en carrousel HECHO
 -Hacer otra animación HECHO
 
-(MEJORAS BASE)
--subir a algún tipo de entorno HECHO
--Cambiar página Index siguiendo una plantilla Boostrap HECHO
-
--Mejorar los botones "ordenar por, flecha, mostrar 30 productos, buscar categoría. con Boostrap.
-y añadir padding al main de la página catálogo 
--Añadir negrita a los botones en acceso 
--Mejorar la descripción en producto 
--Mejorar botones en carrito  
--Cambiar footer en Boostrap (opcional)
-
-
 (TEMA 6)
--PDF de tabla comparativa entre formatos de audio y video haciendo referencia a su compresión y calidad.
+-PDF de tabla comparativa entre formatos de audio y video haciendo referencia a su compresión y calidad. HECHO
 -Añade a tu página web un elemento de audio y otro de vídeo que encaje con la temática de tu web. 
-(Audio ambiental y video promocionativo)
+(Audio ambiental y video promocionativo) FALTA AUDIO EN OFERTAS NAVIDEÑAS
 
 (TEMA 5)
 -PDF Describir formatos de imagen más usados en web y en qué se diferencian cada uno de ellos. HECHO
@@ -31,8 +19,19 @@ y añadir padding al main de la página catálogo
 (TEMA 4, ENTREGA FINAL)
 -Una página de registro y de inicio de sesión HECHO
 -Página principal HECHO
+-SASS separado HECHO
+
 -crear un modal de bootstrap que sirva para informar cuando se haya hecho una compra
--Una nueva página en la que ofrezcas algo nuevo sobre tu producto, pueden ser promociones,
-eventos, un nuevo producto o servicio, etc.
--SASS separado
+-Una nueva página de ofertas navideñas con música navideña y temática navideña
 -Diseño de página de pago
+
+(MEJORAS BASE)
+-subir a algún tipo de entorno HECHO
+-Cambiar página Index siguiendo una plantilla Boostrap HECHO
+-Mejorar la descripción en producto HECHO
+
+-Mejorar los botones "ordenar por, flecha, mostrar 30 productos, buscar categoría. con Boostrap.
+y añadir padding al main de la página catálogo 
+-Añadir negrita a los botones en acceso 
+-Mejorar botones en carrito  
+-Cambiar footer en Boostrap (opcional)

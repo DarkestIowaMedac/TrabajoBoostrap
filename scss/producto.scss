@@ -10,8 +10,8 @@ body {
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /*background-color: #ffffff;*/
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.1);*/
     border-radius: 8px;
 }
 
@@ -26,7 +26,7 @@ body {
     height: auto;
     margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    /*box-shadow: 0 4px 6px rgba(0,0,0,0.1);*/
 }
 
 .imagenes-miniaturas {
@@ -116,6 +116,8 @@ body {
     background-color: #e60000;
 }
 
+
+
 .categoria {
     margin-top: 20px;
     font-size: 18px;
@@ -153,6 +155,23 @@ body {
 }
 
 /* Responsive */
+
+//Ajustada la descripción al lado para tamaños grandes usado responsive (también se podría hacer mediante breakpoints, pero 
+//he preferido hacerlo así.
+@media (min-width: 1400px) {
+    .producto-container {
+        display: flex;
+        align-items: flex-start;
+    }
+    .producto-detalle {
+        flex: 2;
+        margin-right: 2rem;
+    }
+    .descripcion-producto {
+        flex: 1;
+    }
+}
+
 @media (max-width: 768px) {
     .producto-detalle {
         flex-direction: column;
