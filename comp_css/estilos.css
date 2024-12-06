@@ -13002,8 +13002,20 @@ body {
 }
 
 .footer-contentnav {
-  background-color: #c41e3a;
+  background-image: url("../imagenes/estrellas3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
   color: #ffffff;
+}
+
+.columnanavid {
+  padding: 20px;
+}
+
+.mismoancho {
+  height: 35vh;
+  width: 60vw;
 }
 
 .snow {
@@ -13014,6 +13026,10 @@ body {
   bottom: 0;
   pointer-events: none;
   z-index: 1000;
+}
+
+.fondofooternavideño {
+  background-color: rgba(63, 63, 63, 0.742);
 }
 
 .offer-section {

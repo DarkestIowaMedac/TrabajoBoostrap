@@ -18,8 +18,19 @@
     color: red;
 }
 .footer-contentnav {
-    background-color: #c41e3a;
+    background-image: url("../imagenes/estrellas3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
     color: #ffffff;
+}
+
+.columnanavid{
+    padding: 20px;
+}
+.mismoancho{
+    height: 35vh;
+    width: 60vw;
 }
 .snow {
     position: fixed;
@@ -30,6 +41,9 @@
     pointer-events: none;
     z-index: 1000;
 }
+.fondofooternavideño{
+    background-color: rgba(63, 63, 63, 0.742);
+}
 .offer-section {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
@@ -37,6 +51,7 @@
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    
 }
 .offer-section:hover {
     transform: scale(1.05);
