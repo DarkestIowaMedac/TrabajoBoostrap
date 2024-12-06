@@ -200,6 +200,9 @@
             });
         });
     </script>
+    <!-- El siguiente script provoca inicio automático 
+     Debido a las restricciones de ciertos navegadores, la implementación ha sido modificada para
+     que el audio pueda apreciarse en producción...-->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
           var audio = document.getElementById('backgroundAudio');
@@ -222,6 +225,45 @@
             });
           }
         });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('backgroundAudio');
+            var playButton = document.createElement('button');
+            playButton.textContent = '🔊';
+            playButton.style.position = 'fixed';
+            playButton.style.bottom = '20px';
+            playButton.style.right = '20px';
+            playButton.style.zIndex = '1000';
+            playButton.style.fontSize = '54px';
+            playButton.style.background = 'none';
+            playButton.style.border = 'none';
+            playButton.style.cursor = 'pointer';
+            playButton.style.opacity = '0.2';
+            playButton.style.transition = 'opacity 0.3s';
+            document.body.appendChild(playButton);
+          
+            playButton.addEventListener('mouseover', function() {
+              playButton.style.opacity = '1';
+            });
+          
+            playButton.addEventListener('mouseout', function() {
+              playButton.style.opacity = '0.7';
+            });
+          
+            playButton.addEventListener('click', function() {
+              if (audio.paused) {
+                audio.play().then(() => {
+                  playButton.textContent = '🔇';
+                }).catch(error => {
+                  console.error("Error playing audio:", error);
+                });
+              } else {
+                audio.pause();
+                playButton.textContent = '🔊';
+              }
+            });
+          });
       </script>
     <style>
         .snowflake {
