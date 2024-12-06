@@ -12115,6 +12115,10 @@ main {
   border-radius: 5px;
 }
 
+#aplicarcupon {
+  height: 50px;
+}
+
 .cupon h2, .cupon .h2, .total-carrito h2, .total-carrito .h2 {
   font-size: 24px;
   margin-bottom: 15px;
@@ -12123,7 +12127,6 @@ main {
 .input-cupon {
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px;
 }
 
 .flexcode {
@@ -12164,7 +12167,7 @@ main {
 
 .btn-finalizar-compra, .btn-seguir-comprando {
   width: 100%;
-  padding: 15px;
+  padding: 5px;
   margin-top: 10px;
   font-weight: bold;
   border: none;
@@ -12239,6 +12242,25 @@ main {
   padding: 10px 0;
 }
 
+#mostrar, #cuantos {
+  display: flex; /* Usar flexbox para centrar el texto del botón */
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 35px;
+  font-size: 16px;
+  background-color: #eee;
+}
+
+#mostrar {
+  width: 30px;
+}
+
+#categoria {
+  border: 1px solid;
+  background-color: #eee;
+}
+
 h3, .h3 {
   font-size: 20px;
   font-weight: bold;
@@ -12252,19 +12274,26 @@ h3, .h3 {
   margin: 0 auto;
 }
 
-.categoria {
-  color: #fff;
-  font-size: 18px;
-}
-
 .filtros {
   margin: 20px 0;
 }
 
+.banner {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+#orden {
+  background-color: #eee;
+  border: 1px black solid;
+  height: 35px;
+}
+
 .filtro-container {
+  font-size: 18px;
   display: flex;
   justify-content: space-between;
-  height: 30px;
   margin-bottom: 8vh;
 }
 

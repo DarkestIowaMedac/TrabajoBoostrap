@@ -64,7 +64,9 @@
     padding: 20px;
     border-radius: 5px;
 }
-
+#aplicarcupon{
+    height: 50px;
+}
 .cupon h2, .total-carrito h2 {
     font-size: 24px;
     margin-bottom: 15px;
@@ -73,7 +75,6 @@
 .input-cupon {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
 }
 
 .flexcode {
@@ -114,7 +115,7 @@
 
 .btn-finalizar-compra, .btn-seguir-comprando {
     width: 100%;
-    padding: 15px;
+    padding: 5px;
     margin-top: 10px;
     font-weight: bold;
     border: none;

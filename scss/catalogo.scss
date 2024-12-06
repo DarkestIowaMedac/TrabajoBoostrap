@@ -5,6 +5,23 @@
 .categorias {
     background-color: #000;
     padding: 10px 0;
+
+}
+#mostrar, #cuantos{
+    display: flex; /* Usar flexbox para centrar el texto del botón */
+    justify-content: center; 
+    align-items: center; 
+    width: 200px; 
+    height: 35px;
+    font-size: 16px; 
+    background-color: #eee;
+}
+#mostrar{
+    width: 30px; 
+}
+#categoria{
+    border: 1px solid;
+    background-color: #eee;
 }
 h3{
     font-size: 20px;
@@ -18,19 +35,28 @@ h3{
     margin: 0 auto;
 }
 
-.categoria {
-    color: #fff;
-    font-size: 18px;
-}
 
 .filtros {
     margin: 20px 0;
 }
+.banner {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  /* Extra small devices (portrait phones, less than 576px) */
 
+
+#orden{
+    background-color: #eee;
+    border: 1px black solid;
+    height: 35px;
+}
 .filtro-container {
+    
+    font-size: 18px;
     display: flex;
     justify-content: space-between;
-    height: 30px;
     margin-bottom: 8vh;
 }
 

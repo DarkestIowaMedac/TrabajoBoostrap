@@ -12,7 +12,7 @@
     <!-- Con esta configuración los favicons se reescalan siendo relativamente compatibles. 
      También se puede contar con imagenes diferentes para cada dispositivo-->
 </head>
-<body>
+<body >
     <header class="p-0  fw-bold fs-5 text-bg-primary text-dark">
         <nav class="navbar navbar-expand-md bg-primary" aria-label="Fourth navbar example">
             <div class="container-fluid">
@@ -52,25 +52,32 @@
           </nav>
         </header>
 
-    <main>
-        <img src="../imagenes/banner.png" class="banner">
+    <main style="width: 80%; margin: auto;">
+        <div class="container">
+            <img src="../imagenes/banner.png" class="banner img-fluid" alt="Banner image">
+          </div>
 
-        <section class="filtros">
-    <div class="filtro-container">
-        <div class="filtro-izquierda">
-            <select name="orden" id="orden">
-                <option value="">Ordenar por Orden predeterminado</option>
-            </select>
-            <button id="mostrar">↓</button>
-            <button id="cuantos">Mostrar 30 Productos</button>
-        </div>
-        <div class="filtro-derecha">
-            <select name="categoria" id="categoria">
-                <option value="">Buscar categoría</option>
-            </select>
-        </div>
-    </div>
-</section>
+        <section class="filtros container my-4 ">
+            <div class="row g-3">
+                <div class="col-9 col-sm-9 col-md-3">
+                    <select name="orden" id="orden" class="form-select">
+                        <option value="">Ordenar por Orden predeterminado</option>
+                    </select>
+                </div>
+                <div class="col-3 col-sm-2 col-md-2 col-lg-1">
+                    <button id="mostrar" class="btn btn-outline-dark w-100">↓</button>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <button id="cuantos" class="btn btn-outline-dark w-100">Mostrar 30 Productos</button>
+                </div>
+                
+                <div class="col-6 col-sm-6 col-md-3">
+                    <select name="categoria" id="categoria" class="form-select">
+                        <option value="">Buscar categoría</option>
+                    </select>
+                </div>
+            </div>
+        </section>
 
         <section class="productos">
             <div class="flex-productos">
@@ -257,9 +264,9 @@
             </div>
         </section>
 
-        <section class="paginacion">
+        <section class="paginacion mb-4 mt-4">
             <div class="paginacion-container">
-                <a href="#" class="pagina-actual">1</a>
+                <a href="#" class="pagina-actual"><b>1</b></a>
                 <a href="#" class="pagina">2</a>
                 <a href="#" class="pagina">3</a>
                 <a href="#" class="pagina">4</a>

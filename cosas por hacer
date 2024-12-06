@@ -21,17 +21,15 @@
 -Página principal HECHO
 -SASS separado HECHO
 
--crear un modal de bootstrap que sirva para informar cuando se haya hecho una compra
--Una nueva página de ofertas navideñas con música navideña y temática navideña
--Diseño de página de pago
+-crear un modal de bootstrap que sirva para informar cuando se haya hecho una compra                [Viernes]
+-Una nueva página de ofertas navideñas con música navideña y temática navideña                      [Viernes]
+-Diseño de página de pago                                                                           [Viernes]
 
 (MEJORAS BASE)
 -subir a algún tipo de entorno HECHO
 -Cambiar página Index siguiendo una plantilla Boostrap HECHO
 -Mejorar la descripción en producto HECHO
-
 -Mejorar los botones "ordenar por, flecha, mostrar 30 productos, buscar categoría. con Boostrap.
-y añadir padding al main de la página catálogo 
--Añadir negrita a los botones en acceso 
--Mejorar botones en carrito  
--Cambiar footer en Boostrap (opcional)
+y añadir padding al main de la página catálogo HECHO   
+-Añadir negrita a los botones en acceso HECHO                                                            
+-Mejorar botones en carrito HECHO                                                                        
