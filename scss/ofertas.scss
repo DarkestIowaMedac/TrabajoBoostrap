@@ -1,0 +1,58 @@
+#bodyofertas {
+    background-color: #f0f8ff;
+    background-image: url('https://www.transparenttextures.com/patterns/snow.png');
+}
+.navbarnavidad {
+    background-color: #c41e3a;
+}
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+.btn-color-navid {
+    background-color: #228B22 ;
+    border-color: #228B22;
+    color: #ffffff;
+}
+.btn-color-navid:hover{
+    text-decoration: none;
+    color: red;
+}
+.footer-contentnav {
+    background-color: #c41e3a;
+    color: #ffffff;
+}
+.snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+.offer-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.offer-section:hover {
+    transform: scale(1.05);
+}
+.offer-title {
+    color: #c41e3a;
+    font-weight: bold;
+}
+.offer-description {
+    color: #228B22;
+}
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+.floating {
+    animation: float 4s ease-in-out infinite;
+}
