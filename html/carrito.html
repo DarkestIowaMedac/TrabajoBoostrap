@@ -71,7 +71,7 @@
                                             <div class="flex-grow-1 ms-3">
                                                 <a href="#!" class="float-end text-black"><i class="fas fa-times"></i></a>
                                                 <h5 class="text-dark fw-bold">¡Basta! - Di tantas como puedas</h5>
-                                                <div class="d-flex align-items-center">
+                                                <div class="d-sm-flex align-items-center">
                                                     <p class="fw-bold mb-0 me-5 pe-3">12.99€</p>
                                                     <div class="number-input d-flex align-items-center">
                                                         <button class="btn btn-outline-secondary btn-sm minus fw-bold hover-light">-</button>
@@ -90,7 +90,7 @@
                                             <div class="flex-grow-1 ms-3">
                                                 <a href="#!" class="float-end text-black"><i class="fas fa-times"></i></a>
                                                 <h5 class="text-dark fw-bold">Magic maze - escapa del bar</h5>
-                                                <div class="d-flex align-items-center">
+                                                <div class="d-sm-flex align-items-center">
                                                     <p class="fw-bold mb-0 me-5 pe-3">36.45€</p>
                                                     <div class="number-input d-flex align-items-center">
                                                         <button class="btn btn-outline-secondary btn-sm minus fw-bold hover-light">-</button>
@@ -149,11 +149,40 @@
                                             </div>
         
                                             <p class="mb-5">¿Tienes cupones? Utiliza el número de tu cupón para acceder a maravillosos descuentos. Puedes conseguir cupones comprando en nuestra tienda física.</p>
-        
+                                            <!--EL MODAL-->
                                             <button type="button" class="btn btn-primary btn-block btn-lg fw-bold finalcompra">Finalizar compra</button>
-        
+                                            <div class="modal fade" id="pagoModal" tabindex="-1" aria-labelledby="pagoModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                  <div class="modal-content">
+                                                    <div class="modal-header">
+                                                      <h5 class="modal-title" id="pagoModalLabel">Confirmación de Pago</h5>
+                                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                      <p>¡El pago se ha realizado con éxito!</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                      <button type="button" class="btn btn-primary fw-bold" data-bs-dismiss="modal">Cerrar</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              
+                                              <script>
+                                              document.addEventListener('DOMContentLoaded', function() {
+                                                const finalizarCompraBtn = document.querySelector('.finalcompra');
+                                                const pagoModal = new bootstrap.Modal(document.getElementById('pagoModal'));
+                                              
+                                                finalizarCompraBtn.addEventListener('click', function(event) {
+                                                  event.preventDefault();
+                                                  pagoModal.show();
+                                                });
+                                              });
+                                              </script>
+
+                                            <!--FIN DEL MODAL-->
                                             <h5 class="fw-bold mb-5" style="position: absolute; bottom: 0;">
-                                                <a href="#!" class="btn text-light btn-secondary btn-block btn-lg fw-bold">Volver a la tienda</a>
+                                                <a href="./catalogo.html" class="btn text-light btn-secondary btn-block btn-lg fw-bold">Volver a la tienda</a>
                                             </h5>
                                         </form>
                                     </div>
