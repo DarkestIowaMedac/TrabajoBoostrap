@@ -6,6 +6,15 @@
     margin: 0 auto;
 }
 
+.hover-light:hover {
+    color: var(--bs-light);
+}
+
+.finalcompra{
+    color: white;
+    background-color: #228B22;
+    border: 1px solid #228B22;
+}
 .contenido-carrito h1 {
     font-size: 32px;
     margin-bottom: 20px;
