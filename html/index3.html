@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blast Zone - Tienda de Juegos</title>
+    <link rel="stylesheet" href="../comp_css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="https://www.ejemplo.com/imagenes/blastzonelogo.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.ejemplo.com/imagenes/blastzonelogo.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.ejemplo.com/imagenes/blastzonelogo.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.ejemplo.com/imagenes/blastzonelogo.ico">
+    <!-- Con esta configuración los favicons se reescalan siendo relativamente compatibles. 
+     También se puede contar con imágenes diferentes para cada dispositivo-->
+    <script>
+        var clickTag = "https://www.ejemplo.com/landing-page"; // Definición del click tag
+    </script>
+</head>
+<body>
+    <header class="p-0 fw-bold fs-5 text-bg-primary text-dark">
+        <nav class="navbar navbar-expand-md bg-primary" aria-label="Fourth navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-3" href="#">
+                    <img src="https://www.ejemplo.com/imagenes/blastzonelogo.png" width="90" height="90" alt="Logo de Blast Zone">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="ofertas.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">MENU</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Grupos</a></li>
+                                <li><a class="dropdown-item" href="./catalogo.html">Catálogo</a></li>
+                                <li><a class="dropdown-item" href="#fot">Contacto</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    <a href="./carrito.html" class="btn btn-secondary text-light fw-bold btn-outline-danger mt-3 mt-md-0 ms-2 me-2">Carrito</a>
+                    <a href="./login.html" class="btn btn-secondary text-light fw-bold btn-outline-danger mt-3 mt-md-0 me-3">Acceder</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="bg-dark">
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active h-100">
+                    <img src="https://www.ejemplo.com/imagenes/tienda-interior.png" class="d-block w-100 imagencarrousel" alt="Interior de la tienda">
+                    <div class="container h-100">
+                        <div class="carousel-caption text-start position-absolute top-0 start-0 w-100 h-100">                        <div class="carousel-caption text-start position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+                            <div class="bg-dark bg-opacity-50 p-4 rounded">
+                                <h2 class="fw-bold fs-1 text-white mb-3">PÁSATE POR NUESTRA TIENDA</h2>
+                                <p class="fw-bold ps-5 pe-5 fs-4 text-white mb-4">En Blast Zone encontrarás un espacio para jugar a juegos de mesa, juegos de cartas y muchos otros más. Ven con tus amigos siempre que quieras y apúntate a nuestros eventos para hacer nuevos amigos.</p>
+                                <a href="javascript:void(0);" onclick="window.open(clickTag);" class="fw-bold btn bg-secondary ms-5 btn-lg text-light">¡Visítanos!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100">
+                    <img src="https://www.ejemplo.com/imagenes/Eventoedited.jpg" class="d-block w-100 imagencarrousel" alt="Eventos en la tienda">
+                    <div class="container h-100">
+                        <div class="carousel-caption text-start position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+                            <div class="bg-dark bg-opacity-50 p-4 w-100 rounded">
+                                <h2 class="fw-bold fs-1 text-white mb-3">¡VIVE LA EMOCIÓN DE NUESTROS EVENTOS!</h2>
+                                <p class="fw-bold ps-5 pe-5 fs-4 text-white mb-4">Torneos, lanzamientos, noches temáticas... ¡Siempre hay algo nuevo en Blast Zone! Únete a nuestra comunidad de jugadores y disfruta de experiencias únicas.</p>
+                                <a href="javascript:void(0);" onclick="window.open(clickTag);" class="fw-bold btn btn-success ms-5 btn-lg">Ver Calendario</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100">
+                    <img src="https://www.ejemplo.com/imagenes/genteedited.jpg" class="d-block w-100 imagencarrousel" alt="Gente jugando">
+                    <div class="container h-100">
+                        <div class="carousel-caption text-start position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+                            <div class="bg-dark bg-opacity-50 p-4 w-100 rounded">
+                                <h2 class="fw-bold fs-1 text-white mb-3">CONECTA CON OTROS APASIONADOS DE LOS JUEGOS</h2>
+                                <p class="fw-bold ps-5 pe-5 fs-4 text-white mb-4">Blast Zone es más que una tienda, es un lugar donde crear recuerdos inolvidables. Conoce gente nueva, comparte tu pasión por los juegos y diviértete en un ambiente relajado y acogedor.</p>
+                                <a href="javascript:void(0);" onclick="window.open(clickTag);" class="fw-bold btn btn-warning btn-lg ms-5 text-dark">Únete a la Comunidad</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-md-4 mb-5 mb-md-0 aparecer">
+                    <iframe width="100%" height="320" src="https://www.youtube.com/embed/yK_hSUDvMSI" title="🚨 Tenemos también juegos de mesa 😱😜😂" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-8">
+                    <div class="bg-light p-4 rounded shadow-sm slide-in-left">
+                        <h2 class="fw-bold mb-3">¡Descubre Nuestros Juegos de Mesa!</h2>
+                        <p class="mb-4">En Blast Zone, te ofrecemos una amplia selección de juegos de mesa para todos los gustos y edades. Desde clásicos atemporales hasta las últimas novedades, tenemos el juego perfecto para tu próxima noche de diversión.</p>
+                        <ul class="list-unstyled mb-4">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Gran variedad de géneros</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Juegos para todas las edades</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Novedades cada semana</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Explorar Juegos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <div class="row align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-8 mt-4 mt-md-0">
+                    <div class="bg-light p-4 rounded shadow-sm slide-in-right">
+                        <h2 class="fw-bold mb-3">¿Por Qué Comprar en Blast Zone?</h2>
+                        <p class="mb-4">Somos más que una tienda, somos una comunidad de apasionados por los juegos. Al comprar con nosotros, no solo obtienes un juego, sino una experiencia completa.</p>
+                        <ul class="list-unstyled mb-4">
+                            <li><i class="bi bi-star-fill text-warning me-2"></i>Asesoramiento experto</li>
+                            <li><i class="bi bi-people-fill text-info me-2"></i>Eventos y torneos regulares</li>
+                            <li><i class="bi bi-heart-fill text-danger me-2"></i>Comunidad activa de jugadores</li>
+                        </ul>
+                        <a href="#" class="btn btn-success">Únete a Nuestra Comunidad</a>
+                    </div>
+                </div>
+                <div class="col-md-4 aparecer">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/yK_hSUDvMSI" title="🚨 Tenemos también juegos de mesa 😱😜😂" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="fot" class="pie-pagina">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://www.ejemplo.com/imagenes/blastzonelogo.png" alt="Blast Zone Logo" class="logo-footer">
+                <h1>BLAST ZONE</h1>
+            </div>
+            <div class="footer-contact">
+                <p><img src="https://www.ejemplo.com/imagenes/telefono.png" alt="telefono"> +34 957 45 45 55</p>
+                <p><img src="https://www.ejemplo.com/imagenes/email.png" alt="Email"> atencion.blastzone@gmail.com</p>
+                <p><img src="https://www.ejemplo.com/imagenes/reloj.png" alt="reloj"> Lunes a Sábado: 10:00 a 14:00 y 17:00 a 21:00</p>
+                <p><img src="https://www.ejemplo.com/imagenes/reloj.png" alt="reloj"> Domingo: 10:00 a 14:00 y 16:00 a 20:00</p>
+                <p><img src="https://www.ejemplo.com/imagenes/reloj.png" alt="reloj"> Festivos: Cerrado</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>CONÓCENOS</h4>
+                    <ul>
+                        <li><a href="#">FAQ'S</a></li>
+                        <li><a href="#">Realizar una consulta</a></li>
+                        <li><a href="#">Cómo comprar</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>AVISO</h4>
+                    <ul>
+                        <li><a href="#">Aviso legal</a></li>
+                        <li><a href="#">Condiciones generales</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Envíos y devoluciones</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p><a property="dct:title" rel="cc:attributionURL" href="https://blastzone.netlify.app/html/index.html">BlastZone - Tienda de Juegos en Córdoba</a> by <span property="cc:attributionName">DarkestIowa666</span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p> 
+            <p>© BlastZone 2024 <a href="#">Privacy</a> — <a href="#">Terms</a></p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+      function isElementInViewport(el) {
+        const rect = el.getBoundingClientRect();
+        return (
+            rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.bottom >= 0 &&
+            rect.left <= (window.innerWidth || document.documentElement.clientWidth) &&
+            rect.right >= 0
+        );
+      }
+
+      function handleScroll() {
+          const elements = document.querySelectorAll('.slide-in-left, .slide-in-right, .aparecer');
+          elements.forEach(element => {
+              if (isElementInViewport(element)) {
+                  element.classList.add('active');
+              }
+          });
+      }
+
+      window.addEventListener('scroll', handleScroll);
+      window.addEventListener('load', handleScroll);
+      // Trigger the animation check after a short delay to ensure proper rendering
+      setTimeout(handleScroll, 100);
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                var myCarousel = document.querySelector('#myCarousel');
+                if (typeof bootstrap !== 'undefined') {
+                    var carousel = new bootstrap.Carousel(myCarousel, {
+                        interval: 5000,
+                        wrap: true
+                    });
+                    
+                    myCarousel.addEventListener('slide.bs.carousel', function (event) {
+                        if (event.direction === 'left') {
+                            myCarousel.classList.remove('slide-right');
+                            myCarousel.classList.add('slide-left');
+                        } else if (event.direction === 'right') {
+                            myCarousel.classList.remove('slide-left');
+                            myCarousel.classList.add('slide-right');
+                        }
+                    });
+        
+                    carousel.cycle();
+                } else {
+                    console.error('Bootstrap no está cargado correctamente');
+                }
+            }, 100);
+        });
+    </script>
+</body>
+</html>
